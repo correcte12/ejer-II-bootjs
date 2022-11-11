@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicios II - bootcmapjs naviscode</title>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <script type="text/javascript" src="index.js"></script>
+</head>
+
+<body>
+    <h1>Mis ejercicios parte II</h1>
+
+    <h3 class="ma-6">Ejercicio 1</h3>
+    <form>
+        <input type="button" class="btn btn-primary" onclick="ejercicioUno()" value="Introduce el número" />
+    </form>
+    <hr class="border border-danger border-2 opacity-50">
+    <h3 class="ma-6">Ejercicio 2</h3>
+    <form>
+        <input type="button" class="btn btn-primary" onclick="ejercicioDos()" value="Introduce el número" />
+    </form>
+    <hr class="border border-danger border-2 opacity-50 ma-5">
+    <h3 class="ma-6">Ejercicio 3</h3>
+    <form class="form-control">
+        <div class="mb-3">
+            <label class="form-label" for="ancho">Ancho</label>
+            <input class="form-control"type="number" id="ancho" placeholder="Introduce ancho">
+        </div>
+        <div class="mb-3">
+            <label class="form-label" for="alto">Alto</label>
+            <input class="form-control" type="number" id="alto" placeholder="Introduce alto">
+        </div>
+        <div class="col-auto mb-3">
+            <input type="button" type="submit" class="btn btn-primary" onclick="ejercicioTres()" value="Calcula el área del polígono" />
+        </div>
+    </form>
+    <br>
+    <span class="fs-2" id="resultado"></span>
+</body>
+
+</html>
